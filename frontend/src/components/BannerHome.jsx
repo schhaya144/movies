@@ -36,7 +36,7 @@ const BannerHome = () => {
 
 
                         return (
-                            <div className="min-w-full min-h-[450px] lg:min-h-full overflow-hidden relative group transition-all" style={{transform:`translateX(-${currentImage*100}%)`}} key={index}>
+                            <div className="min-w-full min-h-[450px] lg:min-h-full overflow-hidden relative group transition-all" style={{transform:`translateX(-${currentImage*100}%)`}} key={data.id+"bannerHome"+index}>
                                 <div className="w-full h-full">
                                     <img src={imageURL + data.backdrop_path} className='h-full w-full object-cover' />
                                 </div>

@@ -39,6 +39,7 @@ function App() {
   }, [])
   return (
     <main className='pb-14 sm:pb-0'>
+    
       <Header />
       <div className="">
         <Outlet />
